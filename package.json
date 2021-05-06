@@ -4,7 +4,8 @@
   "description": "A bot that prints to a printer to annoy Luc",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "clear;ts-node ./app.ts"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/HoloPanio/printer-bot/issues"
   },
-  "homepage": "https://github.com/HoloPanio/printer-bot#readme"
+  "homepage": "https://github.com/HoloPanio/printer-bot#readme",
+  "dependencies": {
+    "@discordjs/collection": "^0.1.6",
+    "@types/node": "^15.0.2",
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "discord.js": "^12.5.3"
+  }
 }
